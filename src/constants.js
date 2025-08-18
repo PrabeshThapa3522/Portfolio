@@ -35,7 +35,7 @@ import NEALogo from './assets/company_logo/NEA_logo.jpg';
 // Education Section Logo's
 import glaLogo from './assets/education_logo/School_Logo.png';
 import bsaLogo from './assets/education_logo/College_Logo.jpg';
-import vpsLogo from './assets/education_logo/Nepalaya_Logo.png';
+import vpsLogo from './assets/education_logo/Nepalaya_logo.png';
 
 // Project Section Logo's
 import img1 from './assets/project_logo/Cineworld_Logo.png';
