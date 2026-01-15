@@ -127,10 +127,10 @@ export const SkillsInfo = [
     img: vpsLogo, 
     school: "Nepalaya College of Information Technology",
     location: "Kalanki, Kathmandu",
-    date: "2021 - Present",
+    date: "2021 - 2024",
     degree: "Bachelor of Science in Computer Science and Information Technology (BSC CSIT)",
     affiliation: "Affiliated to Tribhuvan University",
-    grade: "Ongoing",
+    grade: "69.33%",
     desc: "Currently pursuing a Bachelor of Science in Computer Science and Information Technology (BSC CSIT) degree with a focus on software development, data structures, networking, and database management. Actively involved in projects and internships that strengthen practical skills and industry readiness.",
   },
   {
