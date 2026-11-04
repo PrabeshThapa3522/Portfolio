@@ -1,7 +1,7 @@
 import React from 'react';
 import {TypeAnimation} from 'react-type-animation';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/photme.png';
+import profileImage from '../../assets/pt.jpg';
 
 const About = () => {
   return (
@@ -23,9 +23,10 @@ const About = () => {
             <span className="text-white">I am a </span>
             <TypeAnimation
       sequence={[
-        'Web App Developer', 2000,
         'Fullstack Developer', 2000,
-        'Coder', 2000
+        'AI/ML Enthusiast', 2000,
+        'Machine Learning Developer', 2000,
+        'AI Application Developer', 2000,
       ]}
       wrapper="span"
       speed={100}
@@ -37,12 +38,13 @@ const About = () => {
           </h3>
 
           <p className="text-gray-400 text-base md:text-lg leading-relaxed mt-4 mb-8">
-            Hi! I’m a web app developer passionate about building cross-platform apps with React. I focus on creating smooth, user-friendly experiences for web application. I also work with the MERN stack to build full solutions when needed. I love solving real-world problems and exploring new tech along the way.
+            Hi! I'm a Full-Stack Developer with a growing focus on Artificial Intelligence and Machine Learning. I enjoy building modern, user-friendly web applications using React and the MERN stack, while also exploring Python, Machine Learning, and AI-powered solutions.
+            I'm passionate about combining web technologies with AI to develop intelligent applications that solve real-world problems. I enjoy learning new technologies, experimenting with ideas, and continuously improving my skills to build meaningful digital experiences.
           </p>
 
           <a
-  href="/PrabeshCV.pdf"
-  download="Prabesh_Thapa_CV.pdf"
+  href="/Prabesh_Resume.pdf"
+  download="Prabesh_Resume.pdf"
   className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
   style={{
     background: 'linear-gradient(90deg, #8245ec, #a855f7)',

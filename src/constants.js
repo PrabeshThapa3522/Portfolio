@@ -28,6 +28,7 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import canvaLogo from './assets/tech_logo/canva.png';
+import fastapiLogo from './assets/tech_Logo/FastAPI.png';
 
 // Experience Section Logo's
 import NEALogo from './assets/company_logo/NEA_logo.jpg';
@@ -38,9 +39,13 @@ import bsaLogo from './assets/education_logo/College_Logo.jpg';
 import vpsLogo from './assets/education_logo/Nepalaya_logo.png';
 
 // Project Section Logo's
-import img1 from './assets/project_logo/Cineworld_Logo.png';
-import img2 from './assets/project_logo/NEA_Logo.png';
-import img3 from './assets/project_logo/Ping_Logo.png';
+import img1 from './assets/project_logo/ePharmacy.png';
+import img2 from './assets/project_logo/Cineworld_Logo.png';
+import img3 from './assets/project_logo/NEA_Logo.png';
+import img4 from './assets/project_logo/Ping_Logo.png';
+import img5 from './assets/project_logo/chatbot.png';
+import img6 from './assets/project_logo/waste-classifier.png';
+import img7 from './assets/project_logo/sentiment-analysis.jpg';
 
 
 
@@ -69,6 +74,7 @@ export const SkillsInfo = [
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
       { name: 'PostgreSQL', logo: postgreLogo },
+      { name: 'FastAPI', logo: fastapiLogo },
     ],
   },
   {
@@ -122,6 +128,7 @@ export const SkillsInfo = [
 
   
   export const education = [
+
   {
     id: 0,
     img: vpsLogo, 
@@ -157,35 +164,75 @@ export const SkillsInfo = [
 
   
  export const projects = [
-  {
+   {
     id: 0,
+    title: "ePharmacy",
+    description:
+      "An AI-integrated ePharmacy platform for browsing medicines, managing prescriptions, and handling pharmacy orders with secure authentication and pharmacist approval.",
+      image: img1,
+      tags: ["React JS", "Python", "FastAPI", "PostgreSQL", "SQLAlchemy", "JWT", "OpenAI API", "RAG", "FAISS"],
+      github: "https://github.com/PrabeshThapa3522/ePharmacy.git",
+      webapp: "",
+  },
+  {
+    id: 1,
     title: "CineWorld - Movie Booking System",
     description:
       "A MERN stack web application that allows users to find and book movies. Features include JWT authentication, 2FA for security, and potentially recommendation algorithms for movie suggestions.",
-    image: img1,
+    image: img2,
     tags: ["MongoDB", "Express.js", "React JS", "Node.js", "REST API"],
     github: "https://github.com/PrabeshThapa3522/CineWorld",
     webapp: "",
   },
   {
-    id: 1,
+    id: 2,
     title: "MD-Schedule- Meeting Management System",
     description:
       "MERN stack web app for managing and viewing appointments at the Nepal Electricity Authority. Admins can add, edit, and delete schedules with details like location, status, date, time, and remarks, while users can view appointments for yesterday, today, and the day after tomorrow.",
-    image: img2,
+    image: img3,
     tags: ["MongoDB","Express.js", "React JS", "Node.js", "REST API"],
     github: "https://github.com/PrabeshThapa3522/NEA.git",
     webapp: "",
   },
   {
-    id: 2,
+    id: 3,
     title: "PingChecker- Server Monitoring Tool",
     description:
       "The Ping Monitoring System is a React and Node.js-based dashboard that tracks the health of servers across multiple branches.It measures ping loss for each server and visually indicates status using green (0–10%), yellow (10–90%), and red (90–100%) signals.This helps quickly identify network issues and maintain branch connectivity.",
-    image: img3,
+    image: img4,
     tags: [ "MongoDB", "React JS", "Node.js"],
     github: "https://github.com/PrabeshThapa3522/PING.git",
     webapp: "",
+  },
+   {
+    id: 4,
+    title: "University Chatbot- AI Chat Application",
+    description:
+      "An AI-powered university chatbot that provides instant answers to students’ queries using RAG, FAISS, and LLMs. ",
+      image: img5,
+      tags: ["Python", "Streamlit", "Ollama(Llama 3", "Sentence Transformers", "RAG", "FAISS"],
+      github: "https://github.com/PrabeshThapa3522/University_Chatbot.git",
+      webapp: "",
+  },
+  {
+    id: 5,
+    title: "Smart Waste Classifier",
+    description:
+      "An AI-powered waste classification system that uses deep learning to identify and classify recyclable waste into five categories using CNN and MobileNetV2 models.",
+      image: img6,
+      tags: ["Python", "TensorFlow", "Keras", "CNN", "MobileNetV2", "Streamlit", "NumPy", "Pillow"],
+      github: "https://github.com/PrabeshThapa3522/Smart_Waste_Classifier.git",
+      webapp: "",
+  },
+  {
+    id: 6,
+    title: "Sentiment Analysis System",
+    description:
+      "An AI-powered sentiment analysis system that classifies social media posts and text into positive, negative, and neutral sentiments using machine learning and deep learning models.",
+      image: img7,
+      tags: ["Python", "Pandas", "NumPy", "NLTK", "Scikit-learn", "TensorFlow", "Keras", "TF-IDF", "Logistic Regression", "LSTM", "GRU", "Streamlit"],
+      github: "https://github.com/PrabeshThapa3522/Sentiment_Analysis_System.git",
+      webapp: "",
   },
   
 ];
