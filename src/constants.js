@@ -28,7 +28,7 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import canvaLogo from './assets/tech_logo/canva.png';
-import fastapiLogo from './assets/tech_Logo/FastAPI.png';
+import fastapiLogo from './assets/tech_logo/FastAPI.png';
 
 // Experience Section Logo's
 import NEALogo from './assets/company_logo/NEA_logo.jpg';
